@@ -1,0 +1,48 @@
+original_category_id,original_mask_value,category_name,status,new_mask_value
+-1,0,background,kept,0
+0,1,"shirt, blouse",kept,1
+1,2,"top, t-shirt, sweatshirt",kept,2
+2,3,sweater,ignored,255
+3,4,cardigan,kept,3
+4,5,jacket,kept,4
+5,6,vest,kept,5
+6,7,pants,kept,6
+7,8,shorts,kept,7
+8,9,skirt,kept,8
+9,10,coat,ignored,255
+10,11,dress,ignored,255
+11,12,jumpsuit,ignored,255
+12,13,cape,ignored,255
+13,14,glasses,kept,9
+14,15,hat,kept,10
+15,16,"headband, head covering, hair accessory",kept,11
+16,17,tie,kept,12
+17,18,glove,kept,13
+18,19,watch,kept,14
+19,20,belt,kept,15
+20,21,leg warmer,kept,16
+21,22,"tights, stockings",kept,17
+22,23,sock,kept,18
+23,24,shoe,kept,19
+24,25,"bag, wallet",kept,20
+25,26,scarf,kept,21
+26,27,umbrella,kept,22
+27,28,hood,kept,23
+28,29,collar,kept,24
+29,30,lapel,kept,25
+30,31,epaulette,kept,26
+31,32,sleeve,kept,27
+32,33,pocket,kept,28
+33,34,neckline,kept,29
+34,35,buckle,kept,30
+35,36,zipper,kept,31
+36,37,applique,kept,32
+37,38,bead,kept,33
+38,39,bow,kept,34
+39,40,flower,kept,35
+40,41,fringe,kept,36
+41,42,ribbon,kept,37
+42,43,rivet,kept,38
+43,44,ruffle,kept,39
+44,45,sequin,kept,40
+45,46,tassel,kept,41
