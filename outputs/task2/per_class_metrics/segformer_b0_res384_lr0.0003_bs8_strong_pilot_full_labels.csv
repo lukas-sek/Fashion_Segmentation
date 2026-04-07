@@ -1,0 +1,48 @@
+class_index,class_name,dice,iou,support,is_background
+0,background,0.9548466801643372,0.9135949015617371,7811744.0,True
+1,"shirt, blouse",0.38028398156166077,0.23478436470031738,126237.0,False
+2,"top, t-shirt, sweatshirt",0.4314308166503906,0.2750473618507385,391077.0,False
+3,sweater,0.0,0.0,1003.0,False
+4,cardigan,0.0,0.0,0.0,False
+5,jacket,0.2553064227104187,0.14633309841156006,175409.0,False
+6,vest,0.0,0.0,47404.0,False
+7,pants,0.5056036710739136,0.33833304047584534,351908.0,False
+8,shorts,0.0,0.0,37990.0,False
+9,skirt,0.0,0.0,0.0,False
+10,coat,0.016723325476050377,0.008432169444859028,28222.0,False
+11,dress,0.0,0.0,0.0,False
+12,jumpsuit,0.0,0.0,0.0,False
+13,cape,0.0,0.0,0.0,False
+14,glasses,0.0,0.0,5373.0,False
+15,hat,0.0,0.0,4849.0,False
+16,"headband, head covering, hair accessory",0.0,0.0,30.0,False
+17,tie,0.0,0.0,384.0,False
+18,glove,0.0,0.0,388.0,False
+19,watch,0.0,0.0,3891.0,False
+20,belt,0.0,0.0,4220.0,False
+21,leg warmer,0.0,0.0,0.0,False
+22,"tights, stockings",0.0,0.0,0.0,False
+23,sock,0.0,0.0,3274.0,False
+24,shoe,3.3645112125668675e-05,1.6822838006191887e-05,59224.0,False
+25,"bag, wallet",0.009019165299832821,0.004530011210590601,17728.0,False
+26,scarf,0.0,0.0,5710.0,False
+27,umbrella,0.0,0.0,0.0,False
+28,hood,0.0,0.0,8912.0,False
+29,collar,0.0009440960129722953,0.0004722709418274462,14643.0,False
+30,lapel,0.0,0.0,26157.0,False
+31,epaulette,0.0,0.0,0.0,False
+32,sleeve,0.47517937421798706,0.31162968277931213,261654.0,False
+33,pocket,0.0,0.0,33884.0,False
+34,neckline,0.0,0.0,11055.0,False
+35,buckle,0.0,0.0,416.0,False
+36,zipper,0.0,0.0,3439.0,False
+37,applique,0.0,0.0,318.0,False
+38,bead,0.0,0.0,0.0,False
+39,bow,0.0,0.0,609.0,False
+40,flower,0.0,0.0,0.0,False
+41,fringe,0.0,0.0,0.0,False
+42,ribbon,0.0,0.0,0.0,False
+43,rivet,0.0,0.0,32.0,False
+44,ruffle,0.0,0.0,0.0,False
+45,sequin,0.0,0.0,0.0,False
+46,tassel,0.0,0.0,0.0,False

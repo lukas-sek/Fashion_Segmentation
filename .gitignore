@@ -7,6 +7,11 @@ data
 # C extensions
 *.so
 
+# Checkpoints are too heavy
+outputs/task2/checkpoints/
+outputs/task2/reduced_labels/checkpoints/
+
+
 # Distribution / packaging
 .Python
 build/

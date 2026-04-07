@@ -1,0 +1,19 @@
+{
+  "model_name": "segformer_b0",
+  "image_size": 384,
+  "learning_rate": 0.0003,
+  "batch_size": 8,
+  "augmentation": "strong",
+  "epochs": 2,
+  "train_subset": 256,
+  "val_subset": 64,
+  "max_train_batches": null,
+  "max_val_batches": null,
+  "early_stopping_patience": 2,
+  "run_mode": "pilot",
+  "num_classes": 47,
+  "background_index": 0,
+  "force_rerun": false,
+  "reduced_label_tag": "full_labels",
+  "early_stopping_delta": 0.0
+}

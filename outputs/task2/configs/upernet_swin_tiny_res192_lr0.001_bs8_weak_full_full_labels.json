@@ -1,0 +1,19 @@
+{
+  "model_name": "upernet_swin_tiny",
+  "image_size": 192,
+  "learning_rate": 0.001,
+  "batch_size": 8,
+  "augmentation": "weak",
+  "epochs": 12,
+  "train_subset": null,
+  "val_subset": null,
+  "max_train_batches": null,
+  "max_val_batches": null,
+  "early_stopping_patience": 3,
+  "run_mode": "full",
+  "num_classes": 47,
+  "background_index": 0,
+  "force_rerun": false,
+  "reduced_label_tag": "full_labels",
+  "early_stopping_delta": 0.0
+}
