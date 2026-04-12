@@ -74,6 +74,19 @@ def _compute_per_class_metrics(confmat: torch.Tensor, class_names: Dict[int, str
     return per_class_rows, mdice_ex_bg, miou_ex_bg
 
 
+def compute_per_class_metrics(
+    confmat: torch.Tensor,
+    class_names: Dict[int, str],
+    background_index: int = 0,
+):
+    """Public wrapper for dense segmentation metrics (same as validation in Task 2)."""
+    return _compute_per_class_metrics(
+        confmat=confmat,
+        class_names=class_names,
+        background_index=background_index,
+    )
+
+
 def train_one_epoch(
     model: nn.Module,
     dataloader: DataLoader,

@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 data
+yolo_dataset
 # C extensions
 *.so
 

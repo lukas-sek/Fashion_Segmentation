@@ -1,0 +1,17 @@
+{
+  "run_name": "yolov8n-seg_res_yolo_seg",
+  "task": "yolo_instance_seg_semantic_eval",
+  "weights": "/Users/pandelissymeonidis/Projects/MAI/object-recognition/Fashion_Segmentation/outputs/task3/runs/yolo_seg_res/weights/best.pt",
+  "imgsz": 384,
+  "conf_threshold": 0.25,
+  "num_classes": 47,
+  "num_val_images": 1158,
+  "eval_seconds": 104.94691420788877,
+  "note": "Dense pixel metrics align with train_eval.validate_one_epoch (Task 2). YOLO seg mAP from model.val() is reported separately and is not the same quantity.",
+  "model_name": "yolov8n-seg",
+  "seg_map50": 0.33328309682530505,
+  "seg_map50_95": 0.18640282699453345,
+  "box_map50": 0.38364159423604666,
+  "box_map50_95": 0.2787168999523045,
+  "history_csv": "/Users/pandelissymeonidis/Projects/MAI/object-recognition/Fashion_Segmentation/outputs/task3/runs/yolo_seg_res/results.csv"
+}
