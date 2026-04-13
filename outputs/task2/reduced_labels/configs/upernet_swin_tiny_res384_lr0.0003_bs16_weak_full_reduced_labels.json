@@ -15,5 +15,6 @@
   "background_index": 0,
   "force_rerun": false,
   "reduced_label_tag": "reduced_labels",
-  "early_stopping_delta": 0.0
+  "early_stopping_delta": 0.0,
+  "source_checkpoint": "outputs\\task2\\checkpoints\\upernet_swin_tiny_res384_lr0.0003_bs16_weak_full_full_labels.pt"
 }

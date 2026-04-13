@@ -13,7 +13,7 @@
   "run_mode": "full",
   "num_classes": 47,
   "background_index": 0,
-  "force_rerun": false,
+  "force_rerun": true,
   "reduced_label_tag": "full_labels",
   "early_stopping_delta": 0.0
 }
