@@ -1,12 +1,3 @@
-# Fashion Parsing Deliverable 2 - Task 2 environment
-# Python 3.10 recommended
-#
-# Create and activate a virtual environment, then install with:
-#   python -m pip install --upgrade pip
-#   python -m pip install -r requirements.txt
-#
-# This uses CUDA-enabled PyTorch wheels from the official PyTorch index.
-
 --extra-index-url https://download.pytorch.org/whl/cu121
 
 torch==2.5.1

@@ -31,7 +31,7 @@ Converts Fashionpedia COCO-style polygons into YOLO segmentation labels and trai
 ```
 Fashion_Segmentation/
 ├── fashion-parsing.ipynb               # Task 1 analysis + Task 2 semantic segmentation
-├── task2_yolo_instance_segmentation.ipynb  # Task 3 YOLO instance segmentation
+├── yolo_instance_segmentation.ipynb    # Task 3 YOLO instance segmentation
 │
 ├── model_factory.py                    # Builds DeepLabV3+, SegFormer, UPerNet via SMP
 ├── segmentation_dataset.py             # Dataset, category maps, label remapping
@@ -93,7 +93,7 @@ Open and run `fashion-parsing.ipynb`. The notebook is structured sequentially:
 
 ### Task 3
 
-Open and run `task2_yolo_instance_segmentation.ipynb`:
+Open and run `yolo_instance_segmentation.ipynb`:
 
 1. The notebook converts the dataset to YOLO format (or reuses an existing `yolo_dataset/` folder).
 2. Trains YOLOv8n-seg and saves run artifacts under `outputs/task3/runs/`.

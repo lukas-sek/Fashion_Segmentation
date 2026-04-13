@@ -1,11 +1,3 @@
-"""
-Evaluate a trained YOLO-seg model with the same dense pixel metrics as Task 2 semantic
-segmentation (mDice / mIoU excluding background, per-class dice/iou, micro pixel acc ex-bg).
-
-YOLO's native seg mAP is kept separately for detection-style reporting; it is not directly
-comparable to Task 2's confusion-matrix metrics.
-"""
-
 from __future__ import annotations
 
 import time
